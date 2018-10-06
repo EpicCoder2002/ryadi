@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Register</title>
+    <link href="css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="css/component.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">رياضي</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-link nav-item" href="#">Home</a>
+            <a class="nav-link nav-item" href="#">Link</a>
+
+            <a class="nav-link nav-item" href="#">Disabled</a>
+            
+        </div>
+       
+    </div>
+</nav>
+
+    <div class="container">
+        <div class="col-md-7 m-auto">
+            <form role="form" class="form-width">
+                <h4 class="form-header text-center">Register</h4>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="First Name" />
+                        <i class="fa fa-user iconalign"></i> </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Last Name" />
+                        <i class="fa fa-user iconalign"></i> </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Username" />
+                        <i class="fa fa-user iconalign"></i> </div>
+                    <div class="form-group col-md-6">
+                        <input type="number" class="form-control" placeholder="Phone Number" />
+                        <i class="fa fa-phone iconalign"></i> </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your E-Mail Address" />
+                    <i class="fa fa-envelope iconalign"></i> </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <select name="gender" class="form-control" style="padding-left:10px !important">
+                            <option value="">Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="text" class="form-control" placeholder="Date Of Birth : DD/MM/YY" />
+                        <i class="fa fa-birthday-cake iconalign"></i> </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <select name="country" class="form-control" style="padding-left:10px !important">
+                            <option value="">Country</option>
+                            <option>United States</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                            <option>India</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" style="padding-left:10px !important" placeholder="Your Company's Name" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6" style="min-height:100px">
+                        <textarea class="form-control" style="min-height:100px; max-height:100px" placeholder="Home Address" /></textarea>
+                        </textarea>
+                        <i class="fa fa-street-view iconalign" style="position: relative; top:-100px;"></i> </div>
+                    <div class="form-group col-md-6" style="min-height:100px">
+                        <textarea class="form-control" style="min-height:100px; max-height:100px" placeholder="Office Address" /></textarea>
+                        </textarea>
+                        <i class="fa fa-street-view iconalign" style="position: relative; top:-100px;"></i> </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Password" />
+                        <i class="fa fa-lock iconalign"></i> </div>
+                    <div class="form-group col-md-6">
+                        <input type="number" class="form-control" placeholder="Confirm Password" />
+                        <i class="fa fa-lock iconalign"></i> </div>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" />
+                    <label class="custom-control-label" for="customCheck1">I agree with the terms &amp; conditions.</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2" />
+                    <label class="custom-control-label" for="customCheck2">Recieve best offers and updates.</label>
+                </div>
+                <div class="form-group text-center">
+                    <button class="btn btn-default col-md-5" type="submit">Register</button>
+                </div>
+                <hr />
+                <div class="text-center">
+                    <text>Already have an account ?</text>
+                    &nbsp;<a href="#">Login</a> </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
